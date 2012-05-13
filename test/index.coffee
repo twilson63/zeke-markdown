@@ -1,5 +1,7 @@
-zeke = require 'zeke'
-zeke.use require '../'
-zeke.init()
-foo = zeke.render -> markdown '# Foo'
-console.log foo
+assert = require 'assert'
+z = require 'zeke'
+md = require(__dirname + '/../')
+z.use md
+z.init()
+foo = z.render -> markdown '# Foo'
+assert.equal foo, '<h1>Foo</h1>'
