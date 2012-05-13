@@ -1,5 +1,5 @@
 zeke = require 'zeke'
 zeke.use require '../'
 zeke.init()
-foo = zeke.render -> gmd.parse '# Foo'
+foo = zeke.render -> markdown '# Foo'
 console.log foo
