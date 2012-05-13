@@ -1,0 +1,16 @@
+{
+  "author": "Tom Wilson <tom@jackhq.com>",
+  "name": "zeke-markdown",
+  "description": "A plugin for zeke to provide github style markdown",
+  "version": "0.1.0",
+  "dependencies": {
+    "github-flavored-markdown": "~1.0.1"
+  },
+  "devDependencies": {
+    "zeke": "~0.1.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "~0.6.17"
+  }
+}
